@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include apoe_reports *.css
+recursive-include apoe_reports *.csv
+recursive-include apoe_reports *.html
+recursive-include apoe_reports *.ico
+recursive-include apoe_reports *.js
+recursive-include apoe_reports *.json
+recursive-include apoe_reports *.md
+recursive-include apoe_reports *.png
+recursive-include apoe_reports *.py
+recursive-include apoe_reports *.svg
+recursive-include apoe_reports *.txt
+recursive-exclude apoe_reports *.pyc
