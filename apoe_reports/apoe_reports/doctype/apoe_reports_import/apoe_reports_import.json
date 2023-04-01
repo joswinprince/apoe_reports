@@ -1,0 +1,163 @@
+{
+ "actions": [],
+ "allow_events_in_timeline": 1,
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:C2N-{MM}{DD}{YYYY}-{######}",
+ "creation": "2023-03-06 03:36:22.790098",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "study_id",
+  "usubjid",
+  "visit",
+  "lab_cat",
+  "lab_orresu",
+  "lab_reasnd",
+  "column_break_18",
+  "domain",
+  "lab_name",
+  "lab_dtc",
+  "lab_test_cd",
+  "lab_method",
+  "column_break_19",
+  "site",
+  "lab_reference_id",
+  "lab_specification",
+  "lab_orres",
+  "lab_stat",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "study_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Study ID"
+  },
+  {
+   "fieldname": "domain",
+   "fieldtype": "Data",
+   "label": "Domain"
+  },
+  {
+   "fieldname": "site",
+   "fieldtype": "Data",
+   "label": "Site"
+  },
+  {
+   "fieldname": "usubjid",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "USUBJID"
+  },
+  {
+   "fieldname": "lab_name",
+   "fieldtype": "Data",
+   "label": "Lab Name"
+  },
+  {
+   "fieldname": "lab_reference_id",
+   "fieldtype": "Data",
+   "label": "Lab Reference ID "
+  },
+  {
+   "fieldname": "visit",
+   "fieldtype": "Data",
+   "label": "Visit"
+  },
+  {
+   "fieldname": "lab_dtc",
+   "fieldtype": "Data",
+   "label": "Lab DTC"
+  },
+  {
+   "fieldname": "lab_specification",
+   "fieldtype": "Data",
+   "label": "Lab Specification"
+  },
+  {
+   "fieldname": "lab_cat",
+   "fieldtype": "Data",
+   "label": "Lab CAT"
+  },
+  {
+   "fieldname": "lab_test_cd",
+   "fieldtype": "Data",
+   "label": "Lab Test CD"
+  },
+  {
+   "fieldname": "lab_orres",
+   "fieldtype": "Data",
+   "label": "Lab ORRES"
+  },
+  {
+   "fieldname": "lab_orresu",
+   "fieldtype": "Data",
+   "label": "Lab ORRESU"
+  },
+  {
+   "fieldname": "lab_method",
+   "fieldtype": "Data",
+   "label": "Lab Method"
+  },
+  {
+   "fieldname": "lab_stat",
+   "fieldtype": "Data",
+   "label": "Lab STAT"
+  },
+  {
+   "fieldname": "lab_reasnd",
+   "fieldtype": "Data",
+   "label": "Lab REASND"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "APOE Reports Import",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_18",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_19",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-03-06 04:07:56.517443",
+ "modified_by": "Administrator",
+ "module": "APOE Reports",
+ "name": "APOE Reports Import",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}
